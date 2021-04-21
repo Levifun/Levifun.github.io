@@ -1846,6 +1846,9 @@ a.fancybox:focus {
   padding: 1rem;
   width: 30rem;
   background: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
 }
 .search-dialog hr {
   margin: 1rem auto;
@@ -1870,6 +1873,8 @@ a.fancybox:focus {
   padding: 0 0 0.7rem;
   color: #49b1f5;
   font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
   line-height: 1;
 }
 .search-mask {
