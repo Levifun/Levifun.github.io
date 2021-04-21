@@ -3,11 +3,11 @@
   <title>Levifun&#39;s Blog</title>
   
   <subtitle>成功也许就在转角，谁知道呢</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://levifun.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://levifun.github.io/"/>
   <updated>2021-10-22T15:03:42.000Z</updated>
-  <id>http://example.com/</id>
+  <id>https://levifun.github.io/</id>
   
   <author>
     <name>来杯咖啡、</name>
@@ -18,25 +18,25 @@
   
   <entry>
     <title>Hexo+Next搭建属于自己的Blog</title>
-    <link href="http://example.com/2021/10/22/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://example.com/2021/10/22/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <link href="https://levifun.github.io/2021/10/22/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://levifun.github.io/2021/10/22/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
     <published>2021-10-22T15:03:42.000Z</published>
     <updated>2021-10-22T15:03:42.000Z</updated>
     
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://levifun.github.io/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://levifun.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/04/15/hello-world/"/>
-    <id>http://example.com/2021/04/15/hello-world/</id>
+    <link href="https://levifun.github.io/2021/04/15/hello-world/"/>
+    <id>https://levifun.github.io/2021/04/15/hello-world/</id>
     <published>2021-04-15T05:35:30.611Z</published>
     <updated>2021-04-20T04:23:26.027Z</updated>
     

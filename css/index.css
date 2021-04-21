@@ -615,10 +615,11 @@ footer.is-mobile {
 }
 #page-header .site-page {
   position: relative;
-  margin-left: 0.6rem;
+  margin-left: 0.7rem;
   padding-bottom: 0.3rem;
   text-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,0.3);
-  font-size: 0.7rem;
+  font-weight: 800;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 #page-header .site-page::after {
@@ -781,6 +782,9 @@ footer.is-mobile {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
 }
 .recent-post-item .more:hover {
   background: #ff7242;
@@ -792,7 +796,6 @@ footer.is-mobile {
   color: #2e2e2e;
   text-decoration: none;
   font-size: 1.4rem;
-  cursor: pointer;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1620,8 +1623,8 @@ a.fancybox:focus {
   width: 300px;
   height: 100%;
   background: #f6f8fa;
-  -webkit-box-shadow: -0.25rem 0 0.25rem rgba(232,237,250,0.6) inset;
-  box-shadow: -0.25rem 0 0.25rem rgba(232,237,250,0.6) inset;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
 }
 #sidebar hr {
   margin: 1rem 0;
@@ -1631,6 +1634,9 @@ a.fancybox:focus {
   padding-right: 0.5rem;
 }
 #sidebar .toggle-sidebar-info span {
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  border-radius: 4px;
   display: inline-block;
   padding: 0 0.6rem;
   height: 1.6rem;
@@ -1664,6 +1670,9 @@ a.fancybox:focus {
   color: #fff;
   text-decoration: none;
   line-height: 1.6rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
 }
 #sidebar .author-info .follow-button a:hover {
   background: #ff7242;
@@ -1675,9 +1684,13 @@ a.fancybox:focus {
   margin: 0 auto;
   width: 5rem;
   height: 5rem;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
 }
 #sidebar .author-info__name {
-  font-size: 0.8rem;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 800;
 }
 #sidebar .author-info__description {
   color: #99a9bf;
@@ -1689,15 +1702,19 @@ a.fancybox:focus {
   display: block;
   overflow: hidden;
   margin-bottom: 0.4rem;
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0.4rem 0.2rem 1rem;
   height: 1.8rem;
   background: #49b1f5;
   color: #fff;
+  font-size: 0.7rem;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  border-radius: 4px;
 }
 #sidebar .author-info-articles .article-meta .pull-right {
   position: relative;
@@ -1733,7 +1750,8 @@ a.fancybox:focus {
 }
 #sidebar .author-info-links__title {
   margin-bottom: 0.4rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  color: #6a737d;
 }
 #sidebar .author-info-links__name {
   position: relative;
@@ -1751,6 +1769,9 @@ a.fancybox:focus {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 0 6px rgba(0,0,0,0.04);
+  border-radius: 4px;
 }
 #sidebar .author-info-links__name:hover {
   background: #ff7242;
@@ -1776,7 +1797,9 @@ a.fancybox:focus {
 }
 #sidebar .sidebar-toc__title {
   padding-right: 0.5rem;
+  margin-bottom: 18px;
   text-align: center;
+  font-weight: 800;
   font-size: 18px;
 }
 #sidebar .sidebar-toc .toc-link {
